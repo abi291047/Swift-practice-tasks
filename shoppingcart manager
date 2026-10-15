@@ -1,0 +1,12 @@
+import Foundation
+var shoppingcart = ["phone","Laptop","Headphones"]
+print("Shoppingcart : ")
+print(shoppingcart)
+shoppingcart.append("Keyboard");
+print(shoppingcart)
+shoppingcart.insert("Mouse",at: 1)
+print(shoppingcart)
+shoppingcart.remove(at:2)
+print(shoppingcart)
+print("final shoppingcart :")
+print(shoppingcart)
