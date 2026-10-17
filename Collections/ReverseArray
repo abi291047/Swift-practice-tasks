@@ -1,0 +1,6 @@
+let numbers = [10, 20, 30, 40, 50]
+var reversedArray: [Int] = []
+for number in numbers {
+    reversedArray.insert(number, at: 0)
+}
+print(reversedArray)
