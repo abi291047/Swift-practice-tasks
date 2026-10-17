@@ -1,0 +1,13 @@
+let n = [25, 10, 45, 5, 30]
+var max= n[0]
+var min = n[0]
+for n in n {
+    if n > max {
+        max = n
+    }
+    if n < min {
+        min = n
+    }
+}
+print("Maximum = \(max)")
+print("Minimum = \(min)")
