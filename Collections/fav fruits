@@ -1,0 +1,9 @@
+var fruits = ["Apple", "banana","orange"," strawberry"]
+print(fruits)
+fruits.append("watermelon")
+print(fruits)
+fruits.insert("lichi",at:3)
+print(fruits)
+fruits.remove(at:4)
+print(fruits)
+print("favourite fruits are : \(fruits)");
