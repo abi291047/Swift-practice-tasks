@@ -1,0 +1,13 @@
+let students = [
+    "Abi": 95,
+    "Navin": 88,
+    "ugu": 91,
+    "Gowri": 85,
+    "Raj": 90
+]
+let searchName = "Kavi"
+if let mark = students[searchName] {
+    print("\(searchName)'s mark = \(mark)")
+} else {
+    print("Not found")
+}
