@@ -1,0 +1,18 @@
+let armstrongNumber = 153
+var value = armstrongNumber
+var sum = 0
+let digits = String(armstrongNumber).count
+while value > 0 {
+    let digit = value % 10
+    var power = 1
+    for _ in 1...digits {
+        power *= digit
+    }
+    sum += power
+    value /= 10
+}
+if sum == armstrongNumber {
+    print("Armstrong Number")
+} else {
+    print("Not Armstrong Number")
+}
