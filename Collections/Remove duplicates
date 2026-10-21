@@ -1,0 +1,9 @@
+var num = [1, 2, 2, 3, 4, 3, 5]
+var result: [Int] = []
+for num in num {
+    if !result.contains(num) {
+        result.append(num)
+    }
+}
+print("Original Array:", num)
+print("After Removing Duplicates:", result)
