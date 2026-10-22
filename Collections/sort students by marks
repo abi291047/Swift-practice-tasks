@@ -1,0 +1,15 @@
+import Foundation
+let stud = [
+    "Abi": 95,
+    "Ugu": 82,
+    "Navin": 91,
+    "Gowri": 78,
+    "Raj": 88
+]
+let sortedStudents = stud.sorted {
+    $0.value > $1.value
+}
+print("Top 3 Students:")
+for stud in sortedStudents.prefix(3) {
+    print(stud.key, "-", stud.value)
+}
