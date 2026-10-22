@@ -1,0 +1,13 @@
+import Foundation
+let sentence = "to be or not to be"
+let words = sentence.split(separator: " ")
+var frequency: [String: Int] = [:]
+for word in words {
+    let key = String(word)
+    if frequency[key] != nil {
+        frequency[key]! += 1
+    } else {
+        frequency[key] = 1
+    }
+}
+print(frequency)
