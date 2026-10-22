@@ -1,0 +1,14 @@
+import Foundation
+let numbers = [10, 25, 8, 40, 30]
+var largest = numbers[0]
+var secondLargest = numbers[0]
+for number in numbers {
+    if number > largest {
+        secondLargest = largest
+        largest = number
+    } else if number > secondLargest && number != largest {
+        secondLargest = number
+    }
+}
+print("Largest:", largest)
+print("Second Largest:", secondLargest)
